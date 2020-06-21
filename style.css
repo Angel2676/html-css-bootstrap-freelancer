@@ -1,0 +1,181 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+header {
+    position: fixed;
+    width: 100%;
+    z-index:1;
+
+}
+
+.container-fluid {
+background-color: #2c3e50;
+
+}
+
+
+.container_nv{
+    font-size: 20px;
+    height: 70px;
+    line-height: 70px;
+    color: white;
+
+
+
+}
+
+.row_mn p {
+    font-size: 25px;
+}
+
+.list-unstyled {
+    display: none;
+}
+
+.cnt {
+    background-color: #1abc9c;
+    color: white;
+    font-size: 40px
+
+}
+
+.cnt1 {
+    background-color: white;
+    color: black;
+    font-size: 40px;
+}
+.row_ctr {
+    padding-top:100px;
+}
+
+.row_ctr img {
+    width: 300px;
+
+}
+
+.row_ctr label {
+    font-size: 20px;
+}
+
+.pose hr, glyphicon-star {
+ float: left;
+}
+
+.cst {
+    background-color: white;
+    color: BLACK;
+    font-size: 50px;
+    padding-top: 100px;
+    padding-bottom: 100PX;
+    text-align: center;
+
+}
+
+.row_ctr1 img {
+    width: 100%;
+    padding-top: 50px;
+
+}
+
+.container_ctr {
+    background-color: white;
+}
+
+.row_ctr h3 {
+    width: 100%;
+    margin: 30px auto;
+
+}
+
+
+.form-group {
+    font-size: 15px;
+    margin-top:50px;
+}
+
+.cntx {
+    background-color: #2c3e50;
+    color: white;
+    font-size: 25px;
+    padding-top:20px;
+    padding-bottom: 20px;
+}
+
+.container_ctr i {
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 20px;
+    font-size: 30px;
+}
+
+
+
+
+
+@media screen and (min-width: 767px) {
+
+    .row_ctr1 {
+        width: 100%;
+    }
+
+    .row_ctr1 img {
+        width: 50%;
+        float: left;
+        padding: 10px;
+    }
+
+
+}
+
+@media screen and (min-width: 992px) {
+
+
+
+    .row_ctr1 {
+        width: 100%;
+    }
+
+    .row_ctr1 img {
+        width: 33%;
+        float: left;
+        padding: 10px;
+
+
+    }
+
+    .row_ctr2 .ft{
+        width: 33.3333%;
+        float: left;
+        font-size: 30px;
+        padding-top: 20px;
+    }
+
+    p .btn {
+        display: none;
+    }
+
+    .row_mn p {
+        font-size: 30px;
+    }
+
+
+
+    .list-unstyled {
+        transform: translate(50% , -20%);
+    }
+
+    .list-unstyled,
+    .list-unstyled li {
+        display: inline-block;
+        font-size: 25px;
+    }
+
+    li {
+        padding-left:20px;
+    }
+
+
+}
